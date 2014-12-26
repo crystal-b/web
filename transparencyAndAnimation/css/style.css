@@ -15,7 +15,7 @@
 	z-index:50;
 	position: relative;
 }
-.glass img{
+.glass{
 	width: 500px;
 	height: auto;
 	transform: rotate(45deg);
