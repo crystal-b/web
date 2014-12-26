@@ -15,9 +15,9 @@
 	z-index:50;
 	position: relative;
 }
-.glass {
-	width:500px;
-	height:auto;
-	-webkit-transform:rotate(45deg);
-	z-index:100;
+.glass img{
+	width: 500px;
+	height: auto;
+	transform: rotate(45deg);
+	z-index: 100;
 }
