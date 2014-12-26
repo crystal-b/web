@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head></head>
-<body>
-	<div id="bg" style="background-color:blue; z-index:0; position:fixed">
-		<div id="mask" style="background-color: white; z-index=10; position:relative">
-			<div id="animating" style="background-color: red; width:300px; height: 300px; z-index=50; position: relative">
-				<img src="img/logoblack.gif" style="width:500px; height:auto; -webkit-transform:rotate(45deg); z-index=100" />
-				<!-- because my image was originally a diamond within a square, I used the transform property to rotate it to get a square that I can use with animations underneath. But now the eges of the image are diamond shaped, so the border property displays in a diamond shape. I need another solution to mask the interior square so that the outside is white and the inside is transparent -->
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="bg">
+			<div id="mask">
+				<div id="animating">
+					<img id="glass" src="img/logoblack.gif" />
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
